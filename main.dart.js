@@ -62134,10 +62134,15 @@ this.b2()},
 N(a){var s=null
 return new A.tW(new A.pG(B.Li,0,!0,new A.J1(s,s,1/0,56),s),B.yQ,s)}}
 A.AF.prototype={
-N(a){var s,r=null,q=A.lF(a).r,p=A.ci(a,r,t.w).w.a,o=p.a,n=p.b
-q.toString
-s=n-q-(0.3*n+q)
-return new A.DN(A.kG(r,new A.AG(new A.XB(5,4,4,(o/5-8)/(s/6-8)),new A.Xw(new A.Rr(),30,!0,!0,!0,r),B.zv,B.aH,!1,r,r,B.DR,!1,r,30,B.bs,B.Fw,r,B.b7,r),r,new A.aA(0,o,0,s),r,r,r,r,r),r)}}
+N(a){var s,r,q,p,o=null,n=A.lF(a).r,m=A.ci(a,o,t.w).w.a,l=m.a
+if(l>350)l=350
+s=m.b
+n.toString
+r=s-n-(0.3*s+n)
+q=l/5-8
+p=r/6-8
+if(p>q)p=q
+return new A.DN(A.kG(o,new A.AG(new A.XB(5,4,4,q/p),new A.Xw(new A.Rr(),30,!0,!0,!0,o),B.zv,B.aH,!1,o,o,B.DR,!1,o,30,B.bs,B.Fw,o,B.b7,o),o,new A.aA(0,l,0,r),o,o,o,o,o),o)}}
 A.Rr.prototype={
 $2(a,b){var s=null,r=new A.bo(A.aj(a).fy,1,B.F,-1)
 return A.kG(s,new A.Er(b,s),s,s,new A.ei(B.i,s,new A.cH(r,r,r,r),s,s,s,B.aV),s,s,s,s)},
