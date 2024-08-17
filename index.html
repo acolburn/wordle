@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/">
+  <base href="https://acolburn.github.io/wordle/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -33,6 +33,25 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      /* background-color: make same color as app background */
+    }
+
+    .main-content {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
   <script src="flutter_bootstrap.js" async></script>
+  <div class="main-content">
+    <img src="splashscreen.png" alt="Splash screen">
+  </div>
 </body>
 </html>
